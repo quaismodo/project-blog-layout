@@ -1,0 +1,61 @@
+.container-aside {
+    width: 208px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.aside__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.aside__title {
+    display: flex;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.latest::before {
+    height: 24px;
+    width: 24px;
+    content: url('../latest.svg');
+    margin-right: 4px;
+}
+
+.commented::before {
+    height: 24px;
+    width: 24px;
+    content: url('../bolt.svg');
+    margin-right: 4px;
+}
+
+.link {
+    color: #2B9EF1;
+    transition: .2s;
+}
+
+.link:hover {
+    opacity: .6;
+}
+
+.aside__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.aside__list-item {
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 8px;
+}
+
+.aside__item-title {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
