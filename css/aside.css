@@ -24,14 +24,14 @@
 .latest::before {
     height: 24px;
     width: 24px;
-    content: url('../latest.svg');
+    content: url('../img/latest.svg');
     margin-right: 4px;
 }
 
 .commented::before {
     height: 24px;
     width: 24px;
-    content: url('../bolt.svg');
+    content: url('../img/bolt.svg');
     margin-right: 4px;
 }
 

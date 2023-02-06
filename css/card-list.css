@@ -4,7 +4,6 @@
 }
 
 .container-card-list {
-    flex-grow: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
@@ -126,14 +125,14 @@
 }
 
 .item-footer__comment::before {
-    content: url('../comment.svg');
+    content: url('../img/comment.svg');
     width: 24px;
     height: 24px;
     margin-right: 4px;
 }
 
 .content {
-    width: 100%;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -169,14 +168,14 @@
     height: 24px;
     width: 24px;
     margin-right: 8px;
-    content: url('../left-arrow.svg');
+    content: url('../img/left-arrow.svg');
 }
 
 .pagination__link--last::after {
     height: 24px;
     width: 24px;
     margin-left: 8px;
-    content: url('../right-arrow.svg');
+    content: url('../img/right-arrow.svg');
 }
 
 .pagination__current {

@@ -52,7 +52,7 @@
 }
 
 .detail__share::before {
-    content: url('../share.svg');
+    content: url('../img/share.svg');
     width: 24px;
     height: 24px;
     margin-right: 4px;

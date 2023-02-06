@@ -19,7 +19,7 @@
     left: 16px;
     z-index: 10;
     position: absolute;
-    content: url('../search-icon.svg');
+    content: url('../img/search-icon.svg');
 }
 
 .search__input {
